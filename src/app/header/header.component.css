@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header .logo{
+    max-width: 64px;
+}
+.header .title-group{
+    font-size: 30px;
+}
+.header .home{
+    padding-left: 10px;
+}
+.header{
+    background-color: rgb(0, 26, 255);
+ 
+}
+.cs7{
+    color: azure;
+}

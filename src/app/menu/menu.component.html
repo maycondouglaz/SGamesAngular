@@ -1,0 +1,48 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode= "side" opened
+    fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/home">
+              <i class="material-icons">
+                    home
+              </i> 
+              início 
+            </a>
+            <a mat-list-item routerLink="/acao"> 
+                Ação
+              </a>            
+              <a mat-list-item routerLink="/corrida">
+
+                Corrida 
+              </a>                          
+              <a mat-list-item routerLink="/estrategia">
+                Estrategia 
+              </a>                        
+              <a mat-list-item routerLink="/fps">
+                Fps
+              </a>
+              <a mat-list-item routerLink="/futebol">
+                Futebol
+              </a>
+              <a mat-list-item routerLink="/indie"> 
+                Indie
+              </a>
+              <a mat-list-item routerLink="/luta">
+                Luta
+              </a>
+              <a mat-list-item routerLink="/rpg">
+                Rpg
+              </a>
+              <a mat-list-item routerLink="/simulacao">
+                Simulação
+              </a>
+                      
+              <a mat-list-item routerLink="/sobrevivencia"> 
+                Sobrevivencia
+              </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class ="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

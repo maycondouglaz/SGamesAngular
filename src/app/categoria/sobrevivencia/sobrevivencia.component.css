@@ -1,0 +1,40 @@
+div, article{
+    display: inline-block;
+    
+}
+.Artigos article div{
+    display: block;
+    text-align: center;
+    
+}
+.Artigos article{
+    
+    margin-left: 30px;
+    vertical-align: top;
+   
+    
+}
+
+article .descricao{
+    height: 100px;
+    color: #1D2D51;
+    font-weight: bold;
+    padding: 5px 0px;
+    display: inline;
+    
+    
+}
+article .valor{
+    color: orangered;
+    font-size: 12px;
+    padding: 5px 0px;
+    display: inline;
+    
+}
+
+table{
+    margin: 40px 50px;
+}
+table tr th{
+    padding: 10px 50px;
+}

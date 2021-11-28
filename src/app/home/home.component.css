@@ -1,0 +1,12 @@
+.home .titulo{
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.home .subtitulo{
+    font-size: 1.1rem;
+    color:#212121
+}
+.home{
+    background-color: #fff;
+    color:#212121
+}
